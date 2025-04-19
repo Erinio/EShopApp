@@ -1,0 +1,24 @@
+name: eshop_frontend
+description: A Flutter e-commerce application
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  http: ^0.13.5
+  shared_preferences: ^2.1.0
+  cached_network_image: ^3.2.3
+  flutter_secure_storage: ^8.0.0
+  badges: ^3.1.1
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
